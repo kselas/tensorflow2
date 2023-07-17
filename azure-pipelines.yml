@@ -1,0 +1,22 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pr:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: Build
+  displayName: 'Build'
+  steps:
+  - checkout: self
+  - script: echo Hello, world!
+  - script: |
+      echo Add other actions to build,
+      echo test, and deploy your project.
