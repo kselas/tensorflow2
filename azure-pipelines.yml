@@ -16,7 +16,8 @@ jobs:
   displayName: 'Build'
   steps:
   - checkout: self
-  - script: echo Hello, world!
+  - script: echo Hello, Solvexia!
   - script: |
-      echo Add other actions to build,
-      echo test, and deploy your project.
+      echo Well, good night.
+      echo If you do meet Horatio and Marcellus,
+      echo The rivals of my watch, bid them make haste.
