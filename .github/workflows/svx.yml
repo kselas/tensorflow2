@@ -12,8 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Hello, Solvexia!
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo Well, good night.
+          echo If you do meet Horatio and Marcellus,
+          echo The rivals of my watch, bid them make haste.
