@@ -9,7 +9,8 @@ pr:
       - main
 
 pool:
-  name: Azure Pipelines
+  name: AzureBuilder
+  # name: Azure Pipelines
   # vmImage: 'ubuntu-latest'
 
 jobs:
